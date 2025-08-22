@@ -1,4 +1,4 @@
-package com.mehedi.dsa.datastructures.linkedlist;
+package com.mehedi.dsa.datastructures.linkedlist.doubly;
 
 public class DoublyLinkedList {
 
@@ -8,6 +8,21 @@ public class DoublyLinkedList {
     private Node tail;
     // Declare length of the doubly linked list.
     private int length;
+
+    // Nested class for the nodes of the doubly linked list.
+    public static class Node {
+        // Declare integer value of the node.
+        int value;
+        // Declare reference to the next node.
+        Node next;
+        // Declare reference to the previous node.
+        Node prev;
+
+        // Constructor to create a new node with a given value.
+        Node(int value) {
+            this.value = value;
+        }
+    }
 
     // Constructor to create a new doubly linked list with a single node.
     public DoublyLinkedList(int value) {
@@ -40,6 +55,16 @@ public class DoublyLinkedList {
         }
         System.out.println();
         System.out.println();
+    }
+
+    public String toForwardString(Node head) {
+        StringBuilder sb = new StringBuilder();
+        Node curr = head;
+        while (curr != null) {
+            sb.append(curr.value).append(" ");
+            curr = curr.next;
+        }
+        return sb.toString().trim();
     }
 
     public void printAll() {

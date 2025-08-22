@@ -1,4 +1,4 @@
-package com.mehedi.dsa.datastructures.linkedlist;
+package com.mehedi.dsa.datastructures.linkedlist.doubly;
 
 public class Main {
     public static void main(String[] args) {
