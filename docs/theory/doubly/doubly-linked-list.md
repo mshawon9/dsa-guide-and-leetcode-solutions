@@ -34,9 +34,9 @@ A **Doubly Linked List** is a linear data structure where each node contains:
 ---
 
 ## Example Code
-See: [DoublyLinkedList.java](../src/main/java/com/mehedi/dsa/datastructures/linkedlist/DoublyLinkedList.java)
+See: [DoublyLinkedList.java](../../../src/main/java/com/mehedi/dsa/datastructures/linkedlist/doubly/DoublyLinkedList.java)
 
 ---
 
 ## Example Usage
-See: [Main.java](../src/main/java/com/mehedi/dsa/datastructures/linkedlist/Main.java)
+See: [Main.java](../../../src/main/java/com/mehedi/dsa/datastructures/linkedlist/doubly/Main.java)
